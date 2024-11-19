@@ -1,4 +1,4 @@
-# alumnai# 🧠📚 AlumnAI
+# 🧠📚 AlumnAI
 
 Automatically Align Lecture Audio with PowerPoint Slides Using AI
 
