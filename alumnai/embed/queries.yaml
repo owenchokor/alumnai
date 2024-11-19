@@ -1,0 +1,5 @@
+queries:
+  single: "Describe the medical image in a single word"
+  short: "Describe the medical image in 5 words or fewer. Think step by step to include key features, purpose, and relevant details. Make sure to mention any visible anatomical structures in your description."
+  moderate: "Describe the medical image in 20 words or fewer. Think step by step to include key features, purpose, and relevant details. Make sure to mention any visible anatomical structures in your description."
+  long: "Describe the medical image in 40 words or fewer. Think step by step to include key features, purpose, and relevant details. Make sure to mention any visible anatomical structures in your description."

@@ -1,0 +1,171 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0; /* Aluminum-like color */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo section */
+header {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center all content */
+    padding: 20px; /* Adjusted padding */
+    background-color: #b0b0b0;
+    border-bottom: 2px solid #999;
+}
+
+.header-content {
+    display: flex; /* Allow logo and text to be in the same line */
+    align-items: center; /* Center items vertically */
+}
+
+header .logo {
+    margin-right: 20px; /* Space between logo and text */
+}
+
+    header .logo img {
+        max-width: 100px; /* Set maximum width for the logo */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+.header-text {
+    text-align: center; /* Center text */
+}
+
+    .header-text h1 {
+        font-size: 36px; /* Adjust size as necessary */
+        margin: 0; /* Remove margin */
+        color: #333;
+        font-family: 'Times New Roman', serif;
+    }
+
+    .header-text p {
+        font-size: 16px; /* Adjust size as necessary */
+        margin: 5px 0 0; /* Add margin for spacing */
+        color: #666; /* Text color for subtitle */
+    }
+
+/* Upload Section */
+.upload-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+    .upload-section h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .upload-section p {
+        font-size: 16px;
+        color: #666;
+    }
+
+/* Central Upload Button */
+.upload-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+    .upload-button:hover {
+        background-color: #e0e0e0;
+        border-color: #007BFF;
+    }
+
+    .upload-button span {
+        font-size: 22px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+/* Process Button */
+.process-button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+    .process-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Instructions */
+.instructions {
+    margin-top: 30px;
+}
+
+    .instructions p {
+        font-size: 14px;
+        color: #666;
+    }
+
+/* Message Section */
+#message-section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#message {
+    font-size: 18px;
+}
+
+/* Download Section */
+.download-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+/* Progress Bar Styles */
+.progress {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #007BFF; /* Blue color */
+    border-radius: 5px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    color: white;
+    text-align: center; /* Center text */
+    line-height: 20px; /* Center text vertically */
+}
