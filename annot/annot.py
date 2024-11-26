@@ -29,6 +29,7 @@ class PDFAnnotator:
                     scripts+=item
 
                 _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, scripts)
+                loop.set_description(f"Page {page_no}에 대해 음성으로 {len(js[str(page_no)])}문장 설명했습니다.")
             except KeyError:
                 loop.set_description(f"Page {page_no}에 대해서는 음성으로 설명한 내용이 없습니다.")
                 _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, '')
@@ -83,8 +84,6 @@ class PDFAnnotator:
                 y_position -= 15
                 x_position = 50
 
-
-
             can.save()
 
             packet.seek(0)
@@ -122,9 +121,11 @@ class PDFAnnotator:
                 "두 입력 데이터를 결합하여 다음 규칙에 따라 요약을 작성하세요:\n"
                 "의학적 및 기술적 키워드는 반드시 포함하세요.\n"
                 "의학 용어는 영어로 그대로 사용하고, 나머지 전체는 한국어로 작성합니다.\"\n"
-                "요약은 1, 2, 3... 번호를 붙인 개조식 형태로 5줄 이내로 작성하고, 핵심 내용만 포함하세요.\n"
+                "요약은 1, 2, 3... 번호를 붙인 개조식 형태로 10줄 이내로 작성하고, 핵심 내용만 포함하세요. 내용이 적으면 더 짧게 요약해도 됩니다.\n"
                 "중요한 내용은 ** **로 강조해 주세요.\n"
+                "-입니다 가 아닌 -이다, -하다 등의 문장 끝을 사용하세요.\n"
                 "최종 요약본만 리턴하세요."
+                
             )
             summarizer.setResponse(prompt)
             summary = summarizer.getResponse()

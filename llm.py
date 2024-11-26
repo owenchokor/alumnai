@@ -1,5 +1,7 @@
 import json
 import os
+import boto3
+from tqdm import tqdm
 
 class LLM:
     def __init__(self, llm='llama'):
@@ -64,3 +66,20 @@ class LLM:
             raise RuntimeError("Response not set. Call setResponse() first.")
         return self.response
 
+class Embedder:
+    def __init__(self):
+        self.runtime = boto3.client(
+            service_name='bedrock-runtime',
+            region_name='us-west-2'
+        )
+
+    def getRequest(self, request_body):
+        response = self.runtime.invoke_model(
+            modelId='amazon.titan-embed-text-v1',  # Example Titan embedding model ID; replace with the correct one
+            accept='application/json',
+            contentType='application/json',
+            body=request_body
+        )
+        response_body = json.loads(response['body'].read())
+        embedding_vector = response_body['embedding']
+        return embedding_vector

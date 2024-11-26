@@ -1,4 +1,4 @@
-from embed.embed import create_page_embeddings, create_sent_embeddings
+from embed import create_page_embeddings, create_sent_embeddings
 from utils import Utils
 import numpy as np
 import matplotlib.pyplot as plt
