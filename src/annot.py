@@ -16,7 +16,7 @@ from src.llm import LLM
 class PDFAnnotator:
     
     @staticmethod
-    def add_summary(pdf_path : str, script : str, output_filename : str, t = 'path'):
+    def add_summary(pdf_path : str, script : str, output_filename : str, log_dir : str, t = 'path'):
         pdfmetrics.registerFont(TTFont('a시네마B', './src/a시네마B.ttf'))
         reader = PdfReader(pdf_path)
         writer = PdfWriter()
@@ -29,11 +29,11 @@ class PDFAnnotator:
                     for item in js[str(page_no)]:
                         item = ' ' + item
                         scripts+=item
-                    _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, scripts)
+                    _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, scripts, log_dir)
                 elif t == 'parsed_json':
                     ###오류 있으니 아직 쓰지 말 것
                     js = script
-                    _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, scripts)
+                    _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, scripts, log_dir)
                 else:
                     raise ValueError("Invalid type")
                 loop.set_description(f"Page {page_no}에 대해 음성으로 설명했습니다.")
@@ -41,7 +41,7 @@ class PDFAnnotator:
 
             except KeyError:
                 loop.set_description(f"Page {page_no}에 대해서는 음성으로 설명한 내용이 없습니다.")
-                _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, '')
+                _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, '', log_dir)
 
             packet = io.BytesIO()
             original_page = reader.pages[page_no]
@@ -105,8 +105,7 @@ class PDFAnnotator:
 
 
     @staticmethod
-    def summarize_page(page_no: int, pdf_path: str, scripts: str, llm: str = 'gpt'):
-        log_dir = 'logs'
+    def summarize_page(page_no: int, pdf_path: str, scripts: str, log_dir : str, llm: str = 'gpt'):
         os.makedirs(log_dir, exist_ok=True)
         log_filename = f"alumnai_{llm}_{page_no}_{os.path.basename(pdf_path).split('.')[0]}_{datetime.now().strftime('%y%m%d%H%M%S')}.txt"
         log_path = os.path.join(log_dir, log_filename)

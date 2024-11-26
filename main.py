@@ -39,7 +39,7 @@ def main():
     plt.savefig(os.path.join(log_dir, f'alignment_results.png'))
 
     #annot
-    PDFAnnotator.add_summary(args.pdf_path, os.path.join(log_dir, f"alignment_{args.query}.json"), output_filename, t = 'path')
+    PDFAnnotator.add_summary(args.pdf_path, os.path.join(log_dir, f"alignment_{args.query}.json"), output_filename, log_dir, t = 'path')
 
 if __name__ == '__main__':
     main()
