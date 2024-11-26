@@ -30,7 +30,7 @@ class PDFAnnotator:
 
                 _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, scripts)
             except KeyError:
-                print(f"Page {page_no}에 대해서는 음성으로 설명한 내용이 없습니다.")
+                loop.set_description(f"Page {page_no}에 대해서는 음성으로 설명한 내용이 없습니다.")
                 _, summary = PDFAnnotator.summarize_page(page_no, pdf_path, '')
 
             packet = io.BytesIO()
@@ -40,30 +40,33 @@ class PDFAnnotator:
             can = canvas.Canvas(packet, pagesize=(page_width, page_height))
             can.setFont("a시네마B", 12)
 
+            x_position = 50
             y_position = page_height - 50
-
+            in_red = False
             for line in summary.split('\n'):
 
-                x_position = 50  # Reset x_position for each line
-                if "**" in line:
-                    parts = line.split("**")
-                    for i, part in enumerate(parts):
-                        can.setFillColor(red if i % 2 == 1 else black)
-                        words = part.split(' ')
-                        for word in words:
-                            word_width = can.stringWidth(word + " ", "a시네마B", 12)
-                            if x_position + word_width > page_width - 50:
-                                y_position -= 15
-                                x_position = 50
-                                if y_position < 50:
-                                    break
-                            can.drawString(x_position, y_position, word)
-                            x_position += word_width
-                        x_position += can.stringWidth(" ", "a시네마B", 12)  # Space after each word
-                else:
-                    can.setFillColor(black)
-                    words = line.split(' ')
-                    for word in words:
+                words = line.split(' ')
+                for word in words:
+                    if '**' in word:
+                        parts = word.split('**')
+                        for i, part in enumerate(parts):
+                            # Toggle color when encountering '**'
+                            if i > 0:
+                                in_red = not in_red
+                            can.setFillColor(red if in_red else black)
+
+                            # Draw each part
+                            if part:
+                                part_width = can.stringWidth(part, "a시네마B", 12)
+                                if x_position + part_width > page_width - 50:
+                                    y_position -= 15
+                                    x_position = 50
+                                    if y_position < 50:
+                                        break
+                                can.drawString(x_position, y_position, part)
+                                x_position += part_width
+                    else:
+                        # Draw word normally if no '**' is present
                         word_width = can.stringWidth(word + " ", "a시네마B", 12)
                         if x_position + word_width > page_width - 50:
                             y_position -= 15
@@ -72,7 +75,13 @@ class PDFAnnotator:
                                 break
                         can.drawString(x_position, y_position, word)
                         x_position += word_width
-                    y_position -= 15  # Move down after processing the line2
+                    
+                    # Add a space after each word
+                    x_position += can.stringWidth(" ", "a시네마B", 12)
+                
+                # Move down after processing the line
+                y_position -= 15
+                x_position = 50
 
 
 
