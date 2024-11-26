@@ -10,7 +10,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.colors import red, black
-from annot.llm import LLM
+from llm import LLM
 
 class PDFAnnotator:
     
