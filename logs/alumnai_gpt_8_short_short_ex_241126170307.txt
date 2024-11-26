@@ -1,0 +1,10 @@
+###############################
+Page 8
+###############################
+1) Summary:
+1. 위치와 방향을 나타내는 용어는 anterior-posterior, ventral-dorsal, cephalic/cranial-caudal, medial-intermediate-lateral, superior-inferior, external-internal, superficial-deep, proximal-distal, center-periphery, frontal-occipital, palmar, plantar-dorsal, ulnar-radial, tibial-fibular 등이 있다.  
+2. 사람과 동물의 위치 용어는 차이가 있으며, 사람은 앞-뒤가 같고, 동물은 아래-위가 같다.  
+3. dorsum은 튀어나온 부위에서 위쪽을 의미하며, 몸의 중심을 기준으로 한다.  
+4. 조직학에서는 용어 사용이 다를 수 있으며, 예를 들어 콩팥 세뇨관의 경우 사구체를 기준으로 한다.  
+5. ulnar는 몸의 가까운 쪽, radial은 몸의 먼쪽을 의미한다.
+
