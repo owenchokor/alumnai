@@ -1,4 +1,5 @@
-# 🧠 AlumnAI: Align Your Lecture Audio with PDF Slides, and Automatically Take Notes 📚🎙️
+# 🧠 AlumnAI
+### Align Your Lecture Audio with PDF Slides, and Automatically Take Notes 📚🎙️
 
 Welcome to **AlumnAI**, a tool that integrates **Speech-to-Text (STT)** with **PDF slide recognition** to create **automatic lecture notes**! 📝✨  
 This repository is designed for students and professionals who want to save time while focusing on learning. Dive in and let AlumnAI handle the tedious work for you! 🚀
@@ -16,8 +17,8 @@ This repository is designed for students and professionals who want to save time
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/AlumnAI.git
-   cd AlumnAI
+   git clone https://github.com/yourusername/alumnai.git
+   cd alumnai
    ```
 
 2. Create a virtual environment (Python 3.10.15):
@@ -44,7 +45,7 @@ python main.py --pdf_path 'test.pdf' --text_path 'test.txt' (--show) (--query)
 - **`--pdf_path`:** Path to the PDF file.
 - **`--text_path`:** Path to the audio transcription file.
 - **`--show`:** (Optional) Visualize the alignment process.
-- **`--query`:** (Optional) Query specific sections of the notes.
+- **`--query`:** (Optional) Query style
 
 ---
 
