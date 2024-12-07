@@ -1,0 +1,10 @@
+###############################
+Page 5
+###############################
+1) Summary:
+1. 해부학은 Gross Anatomy, Microscopic Anatomy, Neuroanatomy, Developmental Anatomy 등 여러 하위 분야로 나뉜다.  
+2. 강의는 부위별 시스템으로 진행되며, 아픈 부위와 관련된 신경, 혈관 문제를 고려한다.  
+3. 조직학(Histology)과 신경해부학(Neuroanatomy)을 통합하여 강의하고, 발생학(Embryology)은 별도 강의가 없다.  
+4. Regional Anatomy는 국소해부학, Systemic Anatomy는 계통해부학으로 구분된다.  
+5. Clinical Anatomy는 임상적 적용을 중심으로 다뤄진다.
+

@@ -1,0 +1,10 @@
+###############################
+Page 5
+###############################
+1) Summary:
+1. 해부학은 Gross Anatomy로 나뉘며, Regional Anatomy, Systemic Anatomy, Clinical Anatomy, Microscopic Anatomy, Neuroanatomy, Developmental Anatomy으로 구분된다.  
+2. 인체해부학 강의는 부위별로 진행되며, 각 부위의 질병과 관련된 신경 및 혈관 문제를 다룬다.  
+3. 조직학과 신경해부학을 통합하여 강의가 진행된다.  
+4. 발생학에 대한 별도의 강의는 없다.  
+5. 전반적으로 의학적 및 기술적 키워드의 중요성이 강조된다.
+

@@ -1,0 +1,20 @@
+###############################
+Page 15
+###############################
+1) Original Speech Data:
+ T-cell 중에는 나중에 면허경을 배우면 알겠지만, CDH라는 surface molecule을 가진 T-cell이 있는데, 여러분들 고등학교생물 때는 sephodoxone, T-lymphoge, 이런 말로 배웠을 거예요. 그리고 memory cell을 하고 있어요.
+
+2) Corrected Text:
+오타를 수정한 텍스트 부분은 다음과 같습니다.
+
+CD4+ T-cell 중에는 나중에 면허경을 배우면 알겠지만, CD4라는 surface molecule을 가진 T-cell이 있는데, 여러분들 고등학교생물 때는 Th1/Th2 cell, T-lymphocyte, 이런 말로 배웠을 거예요. 그리고 memory T cell을 하고 있어요.
+
+3) Summary:
+의학 강의 PDF와 교수님의 음성 데이터를 결합한 요약본입니다.
+
+1. **세포(cell)**는 인체구성의 기본 단위로, **세포 사이 물질(intercellular substance)**이 존재한다. 이 물질은 여러 종류의 섬유(fiber) 성분과 무형질(ground substance)로 구성된다.
+2. **조직(tissue)**은 세포와 세포 사이 물질이 모여서 형성된다.
+3. **장기(organ)**은 여러 조직이 섞여서 형성된다. 예를 들어, 간과 심장은 각각의 장기로 분류된다.
+4. **계통(system)**은 유사한 기능의 장기들이 모여서 형성된다. 예를 들어, 면역계는 다양한 장기들이 모여서 면역 반응을 수행한다.
+5. **CD4+ T-cell**은 면역계에서 중요한 역할을 수행한다. 이 세포는 나중에 면허 경을 배우면 알겠지만, **CD4**라는 표면 분자(surface molecule)을 가진 T-cell이다. 또한, **Th1/Th2 cell**, **T-lymphocyte**, **memory T cell**과 같은 다양한 형태를 가진다.
+

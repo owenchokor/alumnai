@@ -1,0 +1,10 @@
+###############################
+Page 9
+###############################
+1) Summary:
+1. flexion(굽힘): 관절 각도가 작아지는 앞쪽 방향의 움직임.
+2. extension(폄): 관절 각도가 커지고 펴지는 움직임.
+3. palmar flexion(손바닥굽힘) ⟷ dorsiflexion(손등굽힘), plantar flexion(발바닥굽힘) ⟷ dorsiflexion(발등굽힘).
+4. lateral flexion(가쪽굽힘): 허리에서 옆으로 구부리는 움직임.
+5. hyperextension(과신전): 정상 범위를 초과한 extension.
+

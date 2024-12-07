@@ -1,0 +1,10 @@
+###############################
+Page 5
+###############################
+1) Summary:
+1. 해부학의 명칭에는 Gross Anatomy (Macroscopic-)과 Microscopic Anatomy (Histology)가 포함됨.
+2. Gross Anatomy는 Regional Anatomy(국소해부학), Systemic Anatomy(계통해부학), Clinical Anatomy(임상해부학)으로 나뉨.
+3. 현재 인체 해부학 강의는 부위별로 진행되며, 해당 부위의 신경 및 혈관 문제에 중점을 둠.
+4. 강의에서 신경해부학은 신경해부와 신경생리학을 통합하여 설명함.
+5. 발생학은 별도의 강의가 없음.
+

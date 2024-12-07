@@ -1,0 +1,21 @@
+###############################
+Page 15
+###############################
+1) Original Speech Data:
+ 항상 문제. 어디 항상 올까요? 그리고 저는 전공이 면허경이에요. 면허경 중에서도 T-cell을 하고, T-cell 중에도 memory T-cell을 전공을 해요. T-cell 중에는 나중에 면허경을 배우면 알겠지만, CDH라는 surface molecule을 가진 T-cell이 있는데, 여러분들 고등학교생물 때는 sephodoxone, T-lymphoge, 이런 말로 배웠을 거예요. 그리고 memory cell을 하고 있어요.
+
+2) Corrected Text:
+항상 문제. 어디서 항상 올까요? 그리고 저는 전공이 면역학이에요. 면역학 중에서도 T-cell을 하고, T-cell 중에서도 memory T-cell을 전공하고 있어요. T-cell 중에는 나중에 면역학을 배우면 알겠지만, CD4라는 surface molecule을 가진 T-cell이 있는데, 여러분들 고등학교 생물 시간에 sephodoxone, T-lymphocyte, 이런 말로 배웠을 거예요. 그리고 memory cell을 연구하고 있어요.
+
+3) Summary:
+1. **세포(cell)**는 인체 구성의 기본 단위이다.  
+2. **조직(tissue)**는 세포와 세포 사이 물질이 모여 형성된다.  
+3. **장기(organ)**는 여러 조직이 섞여 형성되고, 예로 간, 심장 등이 있다.  
+4. **계통(system)**은 유사한 기능의 장기들이 모여 이루어진다.  
+5. **개체(individual)**는 모든 계통이 통합된 형태이다.  
+6. **세포 사이 물질(intercellular substance)**은 여러 종류의 섬유(fiber) 성분과 무형질(ground substance)로 구성된다.  
+7. 면역학에서 **T-cell**은 중요한 역할을 하며, 특히 **memory T-cell**을 연구하고 있다.  
+8. **CD4**라는 surface molecule을 가진 T-cell이 있으며, 이는 면역 반응에 중요하다.  
+9. **세포에서 계통으로** 진행되는 과정은 생물학적 시스템의 기본 구조를 이해하는 데 필요하다.  
+10. 이 모든 요소들은 인체의 생리학적 기능에 기여한다.
+

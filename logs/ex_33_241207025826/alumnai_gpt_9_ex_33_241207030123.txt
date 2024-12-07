@@ -1,0 +1,10 @@
+###############################
+Page 9
+###############################
+1) Summary:
+1. flexion(굽힘): 관절의 각도가 작아지는 움직임, 일반적으로 앞쪽 방향에서 발생.
+2. extension(폄): 관절의 각도가 커지는 움직임으로, 무릎관절에서는 다른 관절과 180도 반대 방향으로 운동 발생.
+3. palmar flexion(손바닥굽힘)과 dorsiflexion(손등굽힘), plantar flexion(발바닥굽힘)과 dorsiflexion(발등굽힘) 구분.
+4. lateral flexion(가쪽굽힘): 허리를 옆으로 굽히는 움직임.
+5. hyperextension(젖힘, 과신전): 정상 범위를 벗어난 정도의 extension.
+

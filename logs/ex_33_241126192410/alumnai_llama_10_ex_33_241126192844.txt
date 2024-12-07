@@ -1,0 +1,17 @@
+###############################
+Page 10
+###############################
+1) Summary:
+1. **운동 용어의 분류**
+ - Abduction (벌림): 몸의 중심에서 멀어지는 운동
+ - Adduction (모음): 몸의 중심으로 가까워지는 운동
+ - Rotation (회전): 해당 구조물의 세로 축을 중심으로 도는 운동
+
+2. **특수한 운동 용어**
+ - Circumduction (휘돌림): 굽힘, 벌림, 폄, 모음이 순서대로 일어나는 운동 (원뿔 모양 운동)
+ - Inversion (안쪽들림, 안쪽번짐) / Eversion (가쪽들림, 가쪽번짐): 발바닥이 안쪽/가쪽을 향하도록 하는 운동
+
+3. **의학적 키워드**
+ - Abduction, Adduction, Rotation, Circumduction, Inversion, Eversion: 의학 용어
+ - 원뿔 모양 운동: Shoulder & Hip Joints에 적용
+

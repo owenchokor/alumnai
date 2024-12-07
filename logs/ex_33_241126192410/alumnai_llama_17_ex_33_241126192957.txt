@@ -1,0 +1,19 @@
+###############################
+Page 17
+###############################
+1) Summary:
+1. **체계별 분류**: 의학에서 체계는 기능적으로 유사한 장기를 모아 구성한다.
+2. **체계 목록**: 
+ - 피부계통 (Integumentary system)
+ - 골격계통 (Skeletal system)
+ - 근육계통 (Muscular system)
+ - 신경계통 (Nervous system)
+ - 내분비계통 (Endocrine system)
+ - 순환계통 (Cardiovascular system)
+ - 림프계통 (Lymphatic system)
+ - 호흡계통 (Respiratory system)
+ -消化계통 (Digestive system)
+ - 배설계통 (Urinary system)
+ - 생식계통 (Reproductive system)
+3. **배설계통 포함 여부**: 배설계통을 포함할 수 있으나, '배설계'라는 용어를 사용하지 않는다.
+

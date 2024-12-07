@@ -1,0 +1,10 @@
+###############################
+Page 7
+###############################
+1) Summary:
+1. 해부학적 자세는 고개를 들고 손바닥을 앞으로 향하게 하는 자세를 의미한다.  
+2. 인체의 면(plane)은 median plane (정중면), sagittal plane (시상면), coronal (frontal) plane (관상면), transverse (cross) section (가로면), longitudinal section (세로단면), oblique section (빗단면)으로 나뉜다.  
+3. median plane은 좌우 대칭이며 구조물의 중심에 위치할 때 정중면으로 간주된다.  
+4. sagittal plane은 정중면에 평행한 면을 의미한다.  
+5. coronal suture는 관상봉합과 관련이 있다.
+

@@ -1,0 +1,9 @@
+###############################
+Page 14
+###############################
+1) Summary:
+1) 인체의 구성은 세포(cell) 수준에서 조직(tissue), 기관(organ), 계통(system) 수준으로 설명된다.  
+2) 인체의 기본 성분은 피부(skin)에서 시작하여 근육(muscle), 뼈(bone), 장기(organs) 등으로 나열된다.  
+3) 피부의 구조물에는 표피(epidermis), 진피(dermis), 피부밑층(subcutaneous layer) 등이 포함된다.  
+4) 피부와 관련된 주요 개념으로는 체온 조절(thermoregulation), 감각(sensation), 보호(protection) 등이 있다.  
+

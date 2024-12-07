@@ -1,0 +1,10 @@
+###############################
+Page 9
+###############################
+1) Summary:
+1. flexion(굽힘): 관절의 각도가 작아지는 움직임, 일반적으로 앞쪽 방향에서 발생.  
+2. extension(폄): 관절의 각도가 커지는 움직임.  
+3. palmar flexion ⟷ dorsiflexion: 손바닥과 손등의 굽힘.  
+4. plantar flexion ⟷ dorsiflexion: 발바닥과 발등의 굽힘.  
+5. hyperextension(과신전): 정상 범위를 벗어난 extension.
+

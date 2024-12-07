@@ -1,0 +1,21 @@
+###############################
+Page 15
+###############################
+1) Original Speech Data:
+ T-cell 중에는 나중에 면허경을 배우면 알겠지만, CDH라는 surface molecule을 가진 T-cell이 있는데, 여러분들 고등학교생물 때는 sephodoxone, T-lymphoge, 이런 말로 배웠을 거예요. 그리고 memory cell을 하고 있어요.
+
+2) Corrected Text:
+T-cell 중에는 나중에 면역계에 대해 배우면 알겠지만, CD4라는 surface molecule을 가진 T-cell이 있는데, 여러분들 고등학교 생물 때는 세포독성 T림프구, T-림프구, 이런 말로 배웠을 거예요. 그리고 메모리 세포도 하고 있어요.
+
+3) Summary:
+1. **세포(cell)**는 인체 구성의 **기본 단위**이다.  
+2. **조직(tissue)**은 세포와 세포 사이 물질이 모여 이루어진다.  
+3. **장기(organ)**는 여러 조직이 섞여 형성되며, 예를 들어 간과 심장이 있다.  
+4. **계통(system)**은 유사한 기능의 장기들이 모여 구성된다.  
+5. **개체(individual)**는 이러한 계통들이 모인 구조이다.  
+6. **세포 사이 물질(intercellular substance)**은 여러 종류의 **섬유(fiber)** 성분과 **무형질(ground substance)**로 크게 4가지로 구분된다.  
+7. T-cell 중 **CD4**라는 surface molecule을 가진 T-cell은 면역계에서 중요한 역할을 한다.  
+8. 고등학교 생물 시간에는 **세포독성 T 림프구** 및 **T-림프구**로 배우기도 했다.  
+9. T-cell은 **메모리 세포(memory cell)**로도 기능한다.  
+10. 이러한 세포들은 인체의 면역 반응에 중요하다.
+

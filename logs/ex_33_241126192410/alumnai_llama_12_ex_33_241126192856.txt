@@ -1,0 +1,25 @@
+###############################
+Page 12
+###############################
+1) Summary:
+1. 엄지손가락의 움직임
+
+- 엄지손가락의 운동은 1st carpometacarpal joint에서 발생한다.
+- 주요 운동은 Flexion, Extension, Abduction, Adduction, Pronation, Supination, Opposition, Reposition이다.
+
+2. 운동에 관한 용어
+
+- Flexion: 손바닥면을 따라 미끄러져 들어가는 운동
+- Extension: 손바닥면을 따라 가쪽으로 빠져나오는 운동
+- Abduction: 손가락 끝이 앞쪽을 가리키게 되는 운동
+- Adduction: 앞쪽을 가리켰던 손가락이 제자리로 돌아가는 운동
+- Pronation: 아래팔을 움직여 손바닥이 뒤쪽을 향하게 하는 운동
+- Supination: 손바닥이 다시 앞쪽을 향하게 하는 운동
+- Opposition: 엄지손가락 손바닥면이 다른 손가락 손바닥면으로 향하는 운동
+- Reposition: 엄지손가락 손바닥면이 원래 위치로 돌아가는 운동
+
+3. 의학적 및 기술적 키워드
+
+- 1st carpometacarpal joint: 엄지손가락과 손바닥의 연결부
+- Flexion, Extension, Abduction, Adduction, Pronation, Supination, Opposition, Reposition: 손의 운동과 관련된 의학적 용어
+

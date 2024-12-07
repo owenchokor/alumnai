@@ -1,0 +1,9 @@
+###############################
+Page 4
+###############################
+1) Summary:
+1) 해부학의 종류에는 Gross Anatomy, Microscopic Anatomy, Developmental Anatomy 등이 있다.  
+2) 인체를 나누는 면에는 Sagittal Plane, Coronal Plane, Transverse Plane이 있으며, 위치와 방향 관련 용어로는 Superior, Inferior, Anterior, Posterior가 있다.  
+3) 인체의 운동에 관련된 용어로는 Flexion, Extension, Abduction, Adduction 등이 있다.  
+4) 해부학자세( Anatomical Position)는 인체가 정면을 향해 서 있고, 팔은 양옆으로 하고 손바닥이 앞을 향하는 자세를 의미한다.
+

@@ -1,0 +1,9 @@
+###############################
+Page 4
+###############################
+1) Summary:
+1) 해부학의 종류에는 인체 해부학, 동물 해부학, 식물 해부학이 포함된다.  
+2) 인체를 나누는 면(plane), 위치(position), 방향(direction)에 관련된 용어는 sagittal, coronal, transverse, superior, inferior 등이 있다.  
+3) 인체의 운동에 관련된 용어로는 flexion, extension, abduction, adduction, rotation 등이 있다.  
+4) 해부학 자세(anatomical position)는 인체가 서 있는 상태에서 팔은 양옆으로 향하고 손바닥이 앞을 향하는 자세를 정의한다.
+

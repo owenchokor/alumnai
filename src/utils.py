@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 import json
 import re
-
+import seaborn as sns
 
 class Utils:
     @staticmethod
@@ -64,6 +64,16 @@ class Utils:
         return normalized_sig_arr
 
     @staticmethod
+    def mean_normalization(sig_arr):
+        mean_arr = np.zeros_like(sig_arr, dtype=float)
+        for i in range(sig_arr.shape[0]):
+            for j in range(sig_arr.shape[1]):
+                mean_arr[i][j] = sig_arr[i][j]/(np.mean(sig_arr[:, j])*np.mean(sig_arr[i, :]))
+
+        return mean_arr
+
+
+    @staticmethod
     def dpalign(sent_vec: list[list], pdf_vec: list[list]) -> list:
         rankmat = []
         for i in range(len(sent_vec)):
@@ -71,8 +81,16 @@ class Utils:
             for j in range(len(pdf_vec)):
                 lengthlist.append(Utils.l2norm(sent_vec[i], pdf_vec[j]))
             rankmat.append(lengthlist)
-        
-        rankmat = Utils.z_score_normalization(np.array(rankmat))
+        rankmat = Utils.mean_normalization(np.array(rankmat))
+        print(rankmat.shape)
+        # rankmat = np.array(rankmat)
+        heatmap = np.array(rankmat).T
+        sns.heatmap(heatmap, annot=False, cmap='coolwarm')
+        plt.gca().invert_yaxis()
+        plt.savefig('heatmap.png', format='png')
+        plt.clf()
+        plt.cla()
+        # rankmat = Utils.z_score_normalization(np.array(rankmat))
         prev = rankmat[0]
         curr = [0] * len(pdf_vec)
         oldpath = [[0] for _ in range(len(pdf_vec))]
