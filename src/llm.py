@@ -3,8 +3,7 @@ import os
 import io
 from tqdm import tqdm
 
-# llama : us-east-1
-# gpt : API 키 등록
+BEDROCK_REGION = 'us-west-2'
 
 class LLM:
     def __init__(self, llm='llama'):
@@ -13,7 +12,7 @@ class LLM:
             import boto3
             self.bedrock = boto3.client(
                 service_name='bedrock-runtime',
-                region_name='us-east-1'
+                region_name=BEDROCK_REGION
             )
             self.model = "us.meta.llama3-2-11b-instruct-v1:0"
 
@@ -76,7 +75,7 @@ class ImageModel:
         import boto3
         self.bedrock_client = boto3.client(
             service_name='bedrock-runtime', 
-            region_name='us-east-1'
+            region_name=BEDROCK_REGION
         )
         self.model = "us.meta.llama3-2-11b-instruct-v1:0"
 
@@ -112,7 +111,7 @@ class EmbeddingModel:
         import boto3
         self.runtime = boto3.client(
             service_name='bedrock-runtime',
-            region_name='us-east-1'
+            region_name=BEDROCK_REGION
         )
 
 

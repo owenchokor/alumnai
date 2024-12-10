@@ -1,0 +1,17 @@
+###############################
+Page 4
+###############################
+1) Original Speech Data:
+ 국서해박이에요.
+
+2) Corrected Text:
+국서해박이에요.
+
+3) Summary:
+1) **해부학**의 종류에는 **Gross Anatomy**, **Microscopic Anatomy**, **Developmental Anatomy**가 있다.  
+2) 인체를 나누는 면은 **Sagittal Plane**, **Frontal Plane**, **Transverse Plane**이며, 위치와 방향을 나타내는 용어로는 **Medial**, **Lateral**, **Anterior**, **Posterior**가 있다.  
+3) 인체의 운동에 관련된 용어는 **Flexion**, **Extension**, **Abduction**, **Adduction** 등이다.  
+4) **해부학자세**(Anatomical Position)는 인체가 직립하고, 얼굴이 앞을 향하며, 팔이 몸 옆에 늘어뜨려 있는 자세를 의미한다.  
+5) 해부학적 용어는 인체의 구조와 기능을 이해하는 데 필수적이다.  
+6) 각 면과 방향을 명확하게 이해함으로써 **의학적 소통**이 용이해진다.
+
