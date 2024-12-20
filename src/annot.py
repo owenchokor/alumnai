@@ -64,7 +64,7 @@ class PDFAnnotator:
                                 in_red = not in_red
                             can.setFillColor(red if in_red else black)
 
-                            # Draw each part
+                            # Draw each parts
                             if part:
                                 part_width = can.stringWidth(part, "a시네마B", 12)
                                 if x_position + part_width > page_width - 50:

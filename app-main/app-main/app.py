@@ -10,7 +10,7 @@ if folder_path not in sys.path:
     sys.path.append(folder_path)
 os.environ["PATH"] += os.pathsep + folder_path
 print(os.environ["PATH"])
-import annot
+import src.annot as annot
 
 app = Flask(__name__)
 
