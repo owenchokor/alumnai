@@ -31,7 +31,7 @@ class Utils:
     
     @staticmethod
     def search_format(raw_text_path, length_cutoff = 10):
-        with open(raw_text_path, 'r', encoding='utf-8') as file:
+        with open(raw_text_path, 'r', encoding='cp949') as file:
             text_data = file.read()
         strings = re.findall(r"'String':\s*'([^']*)'", text_data)
         original_strings = strings.copy()
@@ -81,7 +81,7 @@ class Utils:
             for j in range(len(pdf_vec)):
                 lengthlist.append(Utils.l2norm(sent_vec[i], pdf_vec[j]))
             rankmat.append(lengthlist)
-        rankmat = Utils.mean_normalization(np.array(rankmat))
+        rankmat = Utils.z_score_normalization(np.array(rankmat))
         print(rankmat.shape)
         # rankmat = np.array(rankmat)
         heatmap = np.array(rankmat).T
