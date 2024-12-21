@@ -19,6 +19,7 @@ def main():
     parser.add_argument('--show', type=bool, default=False, help="Flag to show the embedded images (default: False)")
     parser.add_argument('--query', type=str, default='long', help="length of image description query (default: long)")
     parser.add_argument('--align_test', type=str, default='', help="path to parent folder of data.pkl, if only align needed (default: Empty String)")
+    parser.add_argument('--device', type=str, default='cuda', help="device used")
     args = parser.parse_args()
 
     if args.align_test:
